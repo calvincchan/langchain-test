@@ -1,0 +1,14 @@
+{
+  "name": "langchain-test",
+  "description": "Turn https://github.com/rickyrobinett/langchainjs-workers into locally runnable script.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Calvin C. Chan (hello@calvincchan.com)",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "langchain": "^0.0.78"
+  }
+}
