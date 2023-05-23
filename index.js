@@ -1,11 +1,14 @@
 /**
- * Welcome to Cloudflare Workers! This is your first worker.
+ * To run:
  *
- * - Run `npx wrangler dev src/index.js` in your terminal to start a development server
- * - Open a browser tab at http://localhost:8787/ to see your worker in action
- * - Run `npx wrangler publish src/index.js --name my-worker` to publish your worker
+ * 1. yarn install or npm install.
+ * 2. Either create a .env file or directly set a environment variable OPENAI_API_KEY.
+ * 3. Run the main script node index.js:
+ * - if no argument is provided, it will ask the default question: "What is this article about? Can you give me 3 facts about it?"
+ * - optionally you can provide your question by node index.js "your question here"
  *
- * Learn more at https://developers.cloudflare.com/workers/
+ * Thanks,
+ * Calvin C. Chan
  */
 
 import dotenv from "dotenv";

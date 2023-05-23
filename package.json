@@ -1,6 +1,6 @@
 {
   "name": "langchain-test",
-  "description": "Turn https://github.com/rickyrobinett/langchainjs-workers into locally runnable script.",
+  "description": "With LangChainJS, use the OpenAI language model to ask a question about an article on Wikipedia.",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Calvin C. Chan (hello@calvincchan.com)",

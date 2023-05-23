@@ -1,3 +1,5 @@
+With LangChainJS, use the OpenAI language model to ask a question about an article on Wikipedia.
+
 Inspired by https://blog.cloudflare.com/langchain-and-cloudflare and modified the source code to run locally.
 
 To run:
